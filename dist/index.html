@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="images/logo-adress_bar.png" type="image/png">
+    <title>your-style</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__bg">
+        <div class="header__line">
+          <div class="container">
+            <div class="header__inner">
+              <a class="header-logo__link" href="#">
+                <img class="header-logo__img" src="images/logo.png" />
+              </a>
+              <nav class="header-menu">
+                <button class="header-menu__burger">
+                  <div class="header-menu__burger-line"></div>
+                  <div class="header-menu__burger-line"></div>
+                  <div class="header-menu__burger-line"></div>
+                </button>
+                <ul class="header-menu__list">
+                  <li class="header-menu__item">
+                    <a class="header-menu__link" href="#">Home</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a class="header-menu__link" href="#about">About</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a class="header-menu__link" href="#services">Services</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a class="header-menu__link" href="#our-work">Our Work</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a class="header-menu__link down-arrow" href="#"
+                      >Contacts</a
+                    >
+                    <div class="open-contacts">
+                      <div class="open-contacts__address">
+                        <div class="open-contacts__address-title">Address:</div>
+                        <div class="open-contacts__address-street">
+                          Leo Tolstoy street, 23/5, Kiev, 01033
+                        </div>
+                      </div>
+                      <div class="open-contacts__mail">
+                        <div class="open-contacts__mail-title">Email:</div>
+                        <div class="open-contacts__mail-address">
+                          yourstyle@gmail.com
+                        </div>
+                      </div>
+                      <div class="open-contacts__phone">
+                        <div class="open-contacts__phone-title">Phone:</div>
+                        <a
+                          class="open-contacts__phone-num"
+                          href="tel:+380982117591"
+                          >(+380) 982-11-75-91</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="btn__scroll-top">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 448 448"
+            >
+              <title></title>
+              <g id="icomoon-ignore"></g>
+              <path
+                style="fill: #3f3f3f"
+                d="M420.75 332.75l-41.5 41.25c-6.25 6.25-16.25 6.25-22.5 0l-132.75-132.75-132.75 132.75c-6.25 6.25-16.25 6.25-22.5 0l-41.5-41.25c-6.25-6.25-6.25-16.5 0-22.75l185.5-185.25c6.25-6.25 16.25-6.25 22.5 0l185.5 185.25c6.25 6.25 6.25 16.5 0 22.75z"
+              ></path>
+            </svg>
+          </div>
+          <div class="menu-mobile">
+            <div class="menu-mobile--close">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="40"
+                viewBox="0 0 352 448"
+              >
+                <title></title>
+                <g id="icomoon-ignore"></g>
+                <path style="fill: #3f3f3f"
+                  d="M324.5 330.5c0 6.25-2.5 12.5-7 17l-34 34c-4.5 4.5-10.75 7-17 7s-12.5-2.5-17-7l-73.5-73.5-73.5 73.5c-4.5 4.5-10.75 7-17 7s-12.5-2.5-17-7l-34-34c-4.5-4.5-7-10.75-7-17s2.5-12.5 7-17l73.5-73.5-73.5-73.5c-4.5-4.5-7-10.75-7-17s2.5-12.5 7-17l34-34c4.5-4.5 10.75-7 17-7s12.5 2.5 17 7l73.5 73.5 73.5-73.5c4.5-4.5 10.75-7 17-7s12.5 2.5 17 7l34 34c4.5 4.5 7 10.75 7 17s-2.5 12.5-7 17l-73.5 73.5 73.5 73.5c4.5 4.5 7 10.75 7 17z"
+                ></path>
+              </svg>
+            </div>
+            <ul class="menu-mobile__list">
+              <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="#">Home</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="#about">About</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="#services">Services</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="#our-work">Our Work</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a class="menu-mobile__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header__title">
+          We Love <span class="header__title-span">Interior</span> Design
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__img-block">
+            <div class="about__img-bottom-shadow">
+              <img
+                class="about__img-bottom"
+                src="images/content/deborah-cortelazzi-gREquCUXQLI-unsplash.jpg"
+              />
+            </div>
+            <div class="about__img-top-shadow">
+              <img
+                class="about__img-top"
+                src="images/content/minh-pham-MBsReSZ2WNM-unsplash.jpg"
+              />
+            </div>
+          </div>
+          <div class="about__info-block">
+            <div class="about__info-title title">
+              You Dream, We Design For You
+            </div>
+            <div class="about__info-tegs">
+              <h3 class="about__info-tegs-text">Houses.</h3>
+              <h3 class="about__info-tegs-text">Offices.</h3>
+              <h3 class="about__info-tegs-text">The shops.</h3>
+            </div>
+            <p class="about__info-text">
+              We will make high-quality interior design for bedrooms and
+              kindergartens. When designing an apartment, we use any style of
+              interior decoration. Repair and decoration of apartments in our
+              project create a light and cozy atmosphere that will harmoniously
+              fit into the interior of a country house or studio apartment.
+            </p>
+            <button class="about__info-btn info-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__title title">Our Services</div>
+        <div class="services__inner">
+          <div class="services__item">
+            <span class="services__item-img icon-file-text-o"></span>
+            <h3 class="services__item-title">Planning</h3>
+            <p class="services__item-text">
+              An experienced designer will tell you what hidden points you need
+              to pay attention to. Planning your own interior is much more
+              difficult. For example, it can happen like this: the area was
+              allocated for the most important rooms, and then ...
+            </p>
+            <button class="services__item-btn info-btn">Read More</button>
+          </div>
+          <div class="services__item">
+            <span class="services__item-img icon-home"></span>
+            <h3 class="services__item-title">Interior Design</h3>
+            <p class="services__item-text">
+              Each project is unique, each customer puts forward his own
+              requirements for the project and, unfortunately, does not always
+              know what he wants to get in the end. We listen carefully and
+              record all the little things. We study those who work with us ...
+            </p>
+            <button class="services__item-btn info-btn">Read More</button>
+          </div>
+          <div class="services__item">
+            <span class="services__item-img icon-paint-brush"></span>
+            <h3 class="services__item-title">Creative process</h3>
+            <p class="services__item-text">
+              We like the most difficult, and at first glance, unsolvable
+              problems, which are not easy enough for others to cope with. We
+              think over designs, the principle of operation of mechanisms,
+              automation of various drives and assemblies ...
+            </p>
+            <button class="services__item-btn info-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="map__inner">
+          <div class="map__title title">Our Designers Around The World</div>
+          <p class="map__text">
+            The creative potential of our designers and modern technologies
+            allow us to create unique and bright interiors for individual
+            projects. Our designers are ready to answer your questions from
+            anywhere in the world.
+          </p>
+        </div>
+      </div>
+      <img class="map__bg-img" src="images/world-map.png" alt="" />
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe__bg">
+        <div class="container">
+          <div class="subscribe__title">
+            Need Help With Registration? Send Us Your Email Address
+          </div>
+          <form class="subscribe__form">
+            <input
+              class="subscribe__input"
+              type="text"
+              placeholder="Enter your Email Address"
+            />
+            <button class="subscribe__btn info-btn" type="button">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <div class="clients__title title">Reviews Of Our Clients</div>
+        <div class="clients__slider">
+          <div class="clients__slider-item">
+            <img
+              class="clients__slider-img"
+              src="images/content/client1.png"
+              alt=""
+            />
+            <p class="clients__slider-text">
+              I would like to express my deep gratitude to the "Your Style" team
+              for your efforts and the end result, which combines design
+              solutions, technical and aesthetic advantages. Competent
+              execution, stylish and tasteful! Each of your work is unique,
+              there is no impression that you are exploiting the same ideas and
+              techniques.
+            </p>
+            <div class="clients__slider-client-name">Roman Ignatiev</div>
+          </div>
+
+          <div class="clients__slider-item">
+            <img
+              class="clients__slider-img"
+              src="images/content/client2.png"
+              alt=""
+            />
+            <p class="clients__slider-text">
+              It was not easy to decide who to entrust the creation of the
+              project of our house. They say that everything is learned in
+              comparison: indeed, after talking with different designers and
+              studios, in the design studio "Your Style" we realized that only
+              here we will find the maximum understanding and professional
+              approach.
+            </p>
+            <div class="clients__slider-client-name">Alina Umbaeva</div>
+          </div>
+
+          <div class="clients__slider-item">
+            <img
+              class="clients__slider-img"
+              src="images/content/client3.png"
+              alt=""
+            />
+            <p class="clients__slider-text">
+              Our family is very lucky! From the multitude of offers we had the
+              intuition to choose the design studio "Your Style". We chose
+              without recommendations, based on the company's portfolio, and it
+              was right. We never stop admiring the competence and
+              professionalism of this team. Thanks for the gifted dream come
+              true !!
+            </p>
+            <div class="clients__slider-client-name">Alexey Golub</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="our-work">
+      <div class="container">
+        <div class="projects__inner">
+          <div class="projects__item item-left">
+            <div class="projects__info">
+              <div class="projects__title title">Our Works</div>
+              <span class="projects__span">
+                Types of work that can be ordered from us.
+              </span>
+              <p class="projects__text">
+                Our portfolio contains individual fragments of design projects
+                prepared by our company. We invite you to familiarize yourself
+                with the gallery of works by our designers.
+              </p>
+              <button class="projects__btn info-btn" type="button">
+                All Projects
+              </button>
+            </div>
+            <img
+              class="projects__img"
+              src="images/content/project1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="projects__item item-center">
+            <img
+              class="projects__img"
+              src="images/content/project2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="projects__item item-right">
+            <img
+              class="projects__img"
+              src="images/content/project3.jpg"
+              alt=""
+            />
+            <img
+              class="projects__img"
+              src="images/content/project4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__item item-form">
+              <form class="footer__form">
+                <div class="footer__form-info">
+                  <input
+                    class="footer__form-input"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="footer__form-input"
+                    type="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <input
+                  class="footer__form-input input-title"
+                  type="text"
+                  placeholder="Title"
+                />
+                <textarea
+                  class="footer__form-textarea"
+                  placeholder="Message"
+                ></textarea>
+                <div class="footer__form-btn-center">
+                  <button class="footer__form-btn info-btn" type="button">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div class="footer__item item-contacts" id="contacts">
+              <div class="footer__contacts title">Contacts</div>
+              <div class="footer__address">
+                <div class="footer__address-title footer-title">Address</div>
+                <div class="footer__address-street">
+                  Leo Tolstoy street, 23/5, Kiev, 01033
+                </div>
+              </div>
+              <div class="footer__mail">
+                <div class="footer__mail-title footer-title">Email</div>
+                <div class="footer__mail-address">yourstyle@gmail.com</div>
+              </div>
+              <div class="footer__phone">
+                <div class="footer__phone-title footer-title">Phone</div>
+                <a class="footer__phone-num" href="tel:+380982117591"
+                  >(+380) 982-11-75-91</a
+                >
+              </div>
+              <div class="footer__social">
+                <a class="footer__social-link" href="javascript:void(0);">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="28"
+                    viewBox="0 0 26 28"
+                  >
+                    <title>twitter</title>
+                    <path
+                      d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"
+                    ></path>
+                  </svg>
+                </a>
+                <a class="footer__social-link" href="javascript:void(0);">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="28"
+                    viewBox="0 0 16 28"
+                  >
+                    <title>facebook</title>
+                    <path
+                      d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"
+                    ></path>
+                  </svg>
+                </a>
+                <a class="footer__social-link" href="javascript:void(0);">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="36"
+                    height="28"
+                    viewBox="0 0 36 28"
+                  >
+                    <title>google-plus</title>
+                    <path
+                      d="M22.453 14.266c0 6.547-4.391 11.188-11 11.188-6.328 0-11.453-5.125-11.453-11.453s5.125-11.453 11.453-11.453c3.094 0 5.672 1.125 7.672 3l-3.109 2.984c-0.844-0.812-2.328-1.766-4.562-1.766-3.906 0-7.094 3.234-7.094 7.234s3.187 7.234 7.094 7.234c4.531 0 6.234-3.266 6.5-4.937h-6.5v-3.938h10.813c0.109 0.578 0.187 1.156 0.187 1.906zM36 12.359v3.281h-3.266v3.266h-3.281v-3.266h-3.266v-3.281h3.266v-3.266h3.281v3.266h3.266z"
+                    ></path>
+                  </svg>
+                </a>
+                <a class="footer__social-link" href="javascript:void(0);">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="28"
+                    viewBox="0 0 24 28"
+                  >
+                    <title>pinterest</title>
+                    <path
+                      d="M24 14c0 6.625-5.375 12-12 12-1.188 0-2.312-0.172-3.406-0.5 0.453-0.719 0.969-1.641 1.219-2.562 0 0 0.141-0.531 0.844-3.297 0.406 0.797 1.625 1.5 2.922 1.5 3.859 0 6.484-3.516 6.484-8.234 0-3.547-3.016-6.875-7.609-6.875-5.688 0-8.563 4.094-8.563 7.5 0 2.063 0.781 3.906 2.453 4.594 0.266 0.109 0.516 0 0.594-0.313 0.063-0.203 0.187-0.734 0.25-0.953 0.078-0.313 0.047-0.406-0.172-0.672-0.484-0.578-0.797-1.313-0.797-2.359 0-3.031 2.266-5.75 5.906-5.75 3.219 0 5 1.969 5 4.609 0 3.453-1.531 6.375-3.813 6.375-1.25 0-2.188-1.031-1.891-2.312 0.359-1.516 1.062-3.156 1.062-4.25 0-0.984-0.531-1.813-1.625-1.813-1.281 0-2.312 1.328-2.312 3.109 0 0 0 1.141 0.391 1.906-1.313 5.563-1.547 6.531-1.547 6.531-0.219 0.906-0.234 1.922-0.203 2.766-4.234-1.859-7.187-6.078-7.187-11 0-6.625 5.375-12 12-12s12 5.375 12 12z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="footer__copyright">
+                <p class="footer__copyright-text">
+                  Copyright © 2020 - AlexKosh
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
