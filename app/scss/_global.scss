@@ -7,11 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 a {
   display: inline-block;
   text-decoration: none;
@@ -30,26 +25,45 @@ p {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
-
 body {
-  width: 100%;
-  height: 100%;
-  background: greenyellow;
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
+  line-height: 30px;
+  font-weight: 400;
   color: $text;
   overflow-x: hidden; /* Адаптив контент будет плавно сужаться */
-  min-width: 320px; /* Адаптив с какой ширины ему плавно сужаться */
+  min-width: 320px;   /* Адаптив с какой ширины ему плавно сужаться */
 }
 
 .container {
   max-width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.info-btn {
+  padding: 10px 35px;
+  background-color: $red;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all .5s;
+  &:hover {
+    background: $text;
+    color: $red;
+    transition: all 0.5s;
+  }
+}
+
+.title {
+  margin-bottom: 60px;
+  font-size: 45px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #000;
 }
